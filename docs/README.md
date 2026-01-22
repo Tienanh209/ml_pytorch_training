@@ -70,10 +70,12 @@ This documentation follows a **hybrid structure**:
 
 ### Module 2 Documentation
 
-- [Data Preparation Guide](module-02/data-preparation.md)
-- [Building Neural Networks](module-02/building-models.md)
-- [Training Loop Fundamentals](module-02/training-loop.md)
-- [Model Persistence](module-02/model-persistence.md)
+- [Introduction & Setup](module-02/01-introduction-setup.md)
+- [Data Preparation](module-02/02-data-preparation.md)
+- [Building Models](module-02/03-building-models.md)
+- [Training Loop](module-02/04-training-loop.md)
+- [Saving & Loading](module-02/05-saving-loading.md)
+- [Exercises Quick Reference](module-02/exercises.md)
 
 ---
 

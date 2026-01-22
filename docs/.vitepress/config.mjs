@@ -83,10 +83,30 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Module Overview', link: '/module-03/README' },
-            { text: 'Classification Basics', link: '/module-03/classification-basics' },
-            { text: 'Architecture Design', link: '/module-03/architecture-design' },
-            { text: 'Training & Evaluation', link: '/module-03/training-evaluation' },
-            { text: 'Model Deployment', link: '/module-03/model-deployment' },
+            {
+              text: 'Part 1: Foundations',
+              items: [
+                { text: 'Classification Introduction', link: '/module-03/01-classification-intro' },
+                { text: 'Architecture Components', link: '/module-03/02-architecture-components' },
+                { text: 'Data Preparation', link: '/module-03/03-data-preparation' },
+              ]
+            },
+            {
+              text: 'Part 2: Building & Training',
+              items: [
+                { text: 'Building Models', link: '/module-03/04-building-models' },
+                { text: 'Training & Evaluation', link: '/module-03/05-training-evaluation' },
+                { text: 'Improving Models', link: '/module-03/06-improving-models' },
+              ]
+            },
+            {
+              text: 'Part 3: Multi-Class & Metrics',
+              items: [
+                { text: 'Multi-Class Classification', link: '/module-03/04-building-models#multi-class-classification' },
+                { text: 'Evaluation Metrics', link: '/module-03/07-evaluation-metrics' },
+              ]
+            },
+            { text: 'Exercises Quick Reference', link: '/module-03/exercises' },
           ]
         },
       ]
@@ -94,7 +114,7 @@ export default defineConfig({
 
     // Social links
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/ml-pytorch-training' }
+      { icon: 'github', link: 'https://github.com/ptnglobalcorp/ml_pytorch_training' }
     ],
 
     // Footer
@@ -105,7 +125,7 @@ export default defineConfig({
 
     // Edit link
     editLink: {
-      pattern: 'https://github.com/yourusername/ml-pytorch-training/edit/main/docs/:path',
+      pattern: 'https://github.com/ptnglobalcorp/ml_pytorch_training/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
