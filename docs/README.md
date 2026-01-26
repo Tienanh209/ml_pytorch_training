@@ -94,10 +94,14 @@ This documentation follows a **hybrid structure**:
 
 ### Module 3 Documentation
 
-- [Classification Basics](module-03/classification-basics.md)
-- [Architecture Design](module-03/architecture-design.md)
-- [Training & Evaluation](module-03/training-evaluation.md)
-- [Model Deployment](module-03/model-deployment.md)
+- [Classification Introduction](module-03/01-classification-intro.md)
+- [Architecture Components](module-03/02-architecture-components.md)
+- [Data Preparation](module-03/03-data-preparation.md)
+- [Building Models](module-03/04-building-models.md)
+- [Training & Evaluation](module-03/05-training-evaluation.md)
+- [Improving Models](module-03/06-improving-models.md)
+- [Evaluation Metrics](module-03/07-evaluation-metrics.md)
+- [Exercises Quick Reference](module-03/exercises.md)
 
 ---
 

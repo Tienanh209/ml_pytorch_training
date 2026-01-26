@@ -78,7 +78,7 @@ ml_pytorch_training/
 
 ```bash
 # 1. Read the conceptual guide
-cat docs/module-01/tensor-basics.md
+cat docs/module-01/05-tensor-foundations.md
 
 # 2. Navigate to the lab
 cd module-01/pytorch-fundamentals
@@ -94,16 +94,15 @@ python 02_tensor_operations.py
 
 ```bash
 # 1. Read the conceptual guide
-cat docs/module-03/classification-basics.md
+cat docs/module-03/01-classification-intro.md
 
 # 2. Navigate to the lab
 cd module-03/neural-network-classification
 
-# 3. Run the training script
-python train_classifier.py
-
-# 4. Evaluate the model
-python evaluate_model.py
+# 3. Run the exercises
+python 02_training_and_predictions.py
+python 05_evaluation_metrics.py
+python 06_complete_classification_workflow.py
 ```
 
 ## Viewing Documentation with VitePress
