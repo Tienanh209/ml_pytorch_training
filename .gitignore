@@ -120,3 +120,7 @@ docs/.vitepress/dist/
 _bmad
 
 configure.md
+
+# ignore the models
+*.tar
+*.pth
